@@ -3,7 +3,7 @@
 
 **Document Version:** 1.0
 **Status:** Approved for Phase 2 (Data Modeling & Generation)
-**Prepared by:** [Your Name], Business/Data Analyst
+**Prepared by:** [Benard Onyango Omoga], Business/Data Analyst
 **Date:** September 2026
 
 ---
@@ -179,4 +179,4 @@ The project is successful if a stakeholder reviewing the dashboard and reports c
 
 | Role | Name | Status |
 |---|---|---|
-| Project Owner / Analyst | [Your Name] | Approved |
+| Project Owner / Analyst | [Benard Onyango Ooga] | Approved |
