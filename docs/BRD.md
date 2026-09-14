@@ -179,4 +179,4 @@ The project is successful if a stakeholder reviewing the dashboard and reports c
 
 | Role | Name | Status |
 |---|---|---|
-| Project Owner / Analyst | [Benard Onyango Ooga] | Approved |
+| Project Owner / Analyst | Benard Onyango Omoga | Approved |
