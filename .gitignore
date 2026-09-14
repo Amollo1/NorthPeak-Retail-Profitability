@@ -1,0 +1,15 @@
+# Environment / secrets
+.env
+scripts/.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# This project's internal answer key — never publish alongside the analysis
+internal/
