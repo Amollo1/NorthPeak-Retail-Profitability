@@ -3,7 +3,7 @@
 
 **Document Version:** 1.0
 **Status:** Approved for Phase 2 (Data Modeling & Generation)
-**Prepared by:** [Benard Onyango Omoga], Business/Data Analyst
+**Prepared by:** Benard Onyango Omoga, Business/Data Analyst
 **Date:** September 2026
 
 ---
