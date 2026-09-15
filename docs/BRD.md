@@ -16,7 +16,7 @@ NorthPeak Retail Group has experienced strong top-line sales growth over the pas
 
 ## 2. Company Background
 
-**Company:** NorthPeak Retail Group (fictional)
+**Company:** NorthPeak Retail Group
 **Industry:** Multi-category retail (Technology, Furniture, Office Supplies)
 **Channels:** Physical stores (multi-region) + Online
 **Customer Segments:** Consumer, Corporate, Home Office
