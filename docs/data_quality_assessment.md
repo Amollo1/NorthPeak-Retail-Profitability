@@ -1,14 +1,14 @@
 # Data Quality Assessment
-## Project: NorthPeak Retail — Profitability Decline Analysis
+## Project: NorthPeak Retail - Profitability Decline Analysis
 
 This assessment follows the five dimensions defined in the BRD (Section 2.5): completeness,
 accuracy, consistency, uniqueness, and validity. Because this dataset is synthetically
 generated (not sourced externally), several quality guarantees come from the generation logic
-and schema constraints themselves — these are noted as **"Enforced by design"** below, distinct
+and schema constraints themselves, these are noted as **"Enforced by design"** below, distinct
 from properties that still warrant an explicit query-based check.
 
 Run the validation queries in `sql/03_validation_checks.sql` against your own database and
-record the actual output in the "Verified Result" column — this keeps the assessment honest
+record the actual output in the "Verified Result" column, this keeps the assessment honest
 rather than simply asserting the data is clean.
 
 ---
@@ -21,7 +21,7 @@ Are required values present in every row?
 |---|---|---|---|
 | No NULLs in any `fact_sales` column | 0 nulls | All columns declared `NOT NULL` in DDL | **Confirmed: 0 nulls across all columns checked** |
 | No NULLs in dimension business keys (`customer_id`, `product_id`) | 0 nulls | `NOT NULL UNIQUE` constraint | Enforced by design |
-| Every `fact_sales` row has a valid FK to all 5 dimension tables | 100% | `FOREIGN KEY` constraints (insert would fail otherwise) | Enforced by design — confirmed during load (see Section 4) |
+| Every `fact_sales` row has a valid FK to all 5 dimension tables | 100% | `FOREIGN KEY` constraints (insert would fail otherwise) | Enforced by design, confirmed during load (see Section 4) |
 
 ```sql
 -- Completeness check: NULLs in fact_sales
@@ -41,7 +41,7 @@ Are the values logically correct?
 
 | Check | Expected | Enforced By | Verified Result |
 |---|---|---|---|
-| `sales_amount` = `quantity × unit_price × (1 − discount_pct)` for every row | 100% match | Computed at generation time from the same formula used in SQL/DAX | **32/69,735 rows (0.046%) show a 1-cent discrepancy** — see note below |
+| `sales_amount` = `quantity × unit_price × (1 − discount_pct)` for every row | 100% match | Computed at generation time from the same formula used in SQL/DAX | **32/69,735 rows (0.046%) show a 1-cent discrepancy**, see note below |
 | `profit_amount` = `sales_amount − cost_amount` for every row | 100% match | Same as above | Same 32 rows (profit inherits the sales_amount discrepancy) |
 | No negative `sales_amount`, `quantity`, or prices | 0 violations | `CHECK` constraints (`quantity > 0`, `unit_price > 0`, `unit_cost > 0`) | Enforced by design |
 
@@ -98,7 +98,7 @@ Are there unexpected duplicates?
 | No duplicate `customer_id` | 0 duplicates | `UNIQUE` constraint | Enforced by design |
 | No duplicate `product_id` | 0 duplicates | `UNIQUE` constraint | Enforced by design |
 | No duplicate `(region, county, city)` combination | 0 duplicates | `UNIQUE` constraint `uq_region_geo` | Enforced by design |
-| `order_id` legitimately repeats (multiple line items per order) — this is correct, not a defect | Repeats expected | Grain is defined at line-item level (BRD/data model Section 1) | *(run query, fill in — informational only)* |
+| `order_id` legitimately repeats (multiple line items per order), this is correct, not a defect | Repeats expected | Grain is defined at line-item level (BRD/data model Section 1) | *(run query, fill in — informational only)* |
 
 ```sql
 -- Uniqueness check: confirm order_id repetition reflects genuine multi-line orders,
@@ -150,7 +150,7 @@ WHERE discount_pct < 0 OR discount_pct > 0.80
 | Validity | Guaranteed by `CHECK` constraints on all business rules |
 
 **Honest caveat for the portfolio README:** because this is a synthetic, schema-constrained
-dataset, it is *cleaner than a real production dataset would ever be* — real retail data
+dataset, it is *cleaner than a real production dataset would ever be*, real retail data
 routinely has missing postal codes, inconsistent category casing, occasional negative
 quantities from returns, and duplicate customer records from imperfect deduplication. This
 project's data quality section demonstrates the *methodology* (the five-dimension framework,
