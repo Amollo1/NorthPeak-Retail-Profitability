@@ -1,6 +1,6 @@
 # NorthPeak Retail — Profitability Decline Analysis
 
-**An end-to-end Business Analyst / Data Analyst portfolio project diagnosing why a retailer's profit margin declined from ~19% to ~12.5% despite 22% sales growth — and quantifying exactly what to do about it.**
+**An end-to-end Business Analyst / Data Analyst portfolio project diagnosing why a retailer's profit margin declined from ~19% to ~12.5% despite 22% sales growth, and quantifying exactly what to do about it.**
 
 ---
 
@@ -20,11 +20,11 @@ Three specific, statistically validated root causes explain the decline:
 
 | Finding | Evidence |
 |---|---|
-| **Corporate segment margin collapse** | Corporate's share of sales grew 27.5% → 33.0%, while its margin collapsed 12.6% → 4.6% — a classic volume-for-margin dilution pattern, confirmed via Welch's t-test (p < 0.000001) |
+| **Corporate segment margin collapse** | Corporate's share of sales grew 27.5% → 33.0%, while its margin collapsed 12.6% → 4.6%, a classic volume-for-margin dilution pattern, confirmed via Welch's t-test (p < 0.000001) |
 | **Discount creep in Nairobi Furniture sales** | Discount rose from ~9% to ~28% in 18 months — nearly triple the rate seen in any other region for the same category |
-| **"Tables" sub-category structurally unprofitable** | Negative margin every year since 2023 (-7.1% overall), independent of the broader decline — a pricing/cost issue, not a discounting issue |
+| **"Tables" sub-category structurally unprofitable** | Negative margin every year since 2023 (-7.1% overall), independent of the broader decline, a pricing/cost issue, not a discounting issue |
 
-The overall margin decline itself is statistically significant (linear regression: -0.57 percentage points/quarter, p = 0.0002, R² = 0.76) — not normal quarter-to-quarter noise.
+The overall margin decline itself is statistically significant (linear regression: -0.57 percentage points/quarter, p = 0.0002, R² = 0.76), not normal quarter-to-quarter noise.
 
 <p align="center">
   <img src="images/margin_trend.png" width="440">
@@ -48,7 +48,7 @@ The overall margin decline itself is statistically significant (linear regressio
 | Re-price "Tables" to category-average margin | 34,779,370 |
 | **Total (directional, upper-bound estimate)** | **≈ 60,744,474** |
 
-*(All estimates assume no volume response to reduced discounting — treated as an upper bound, not a guaranteed forecast. See the Business Recommendations report for the full methodology and caveats.)*
+*(All estimates assume no volume response to reduced discounting, treated as an upper bound, not a guaranteed forecast. See the Business Recommendations report for the full methodology and caveats.)*
 
 ---
 
@@ -73,7 +73,7 @@ flowchart LR
     C --> D[Communication Layer<br/>Power BI Dashboard,<br/>Exec Summary,<br/>Recommendations]
 ```
 
-The dataset is **synthetically generated with deliberately engineered profitability issues** (not random noise) — see [`internal/ground_truth.md`](internal/ground_truth.md) *(not published — internal validation reference only)* for the exact mechanisms planted, which the analysis independently rediscovers.
+The dataset is **synthetically generated with deliberately engineered profitability issues** (not random noise), see [`internal/ground_truth.md`](internal/ground_truth.md) *(not published, internal validation reference only)* for the exact mechanisms planted, which the analysis independently rediscovers.
 
 ---
 
@@ -189,6 +189,6 @@ Out of scope for this project (see [`docs/BRD.md`](docs/BRD.md) Section 7.2), bu
 
 ## Author
 
-**[Your Name]** — IT Specialist, Data Analyst, Web Developer
+**Benard Onyango Omoga**: IT Specialist, Data Analyst, Web Developer
 
-[LinkedIn] · [Portfolio] · [Email]
+[LinkedIn] · [git commit -m "Add Layer C (SQL/Python analysis) and Layer D (Power BI dashboard, reports, README)"] · [Email]
