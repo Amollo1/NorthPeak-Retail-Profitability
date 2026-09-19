@@ -1,4 +1,4 @@
-# NorthPeak Retail — Profitability Decline Analysis
+# NorthPeak Retail - Profitability Decline Analysis
 
 **An end-to-end Business Analyst / Data Analyst portfolio project diagnosing why a retailer's profit margin declined from ~19% to ~12.5% despite 22% sales growth, and quantifying exactly what to do about it.**
 
