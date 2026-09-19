@@ -102,4 +102,4 @@ flowchart TD
 
 ## 5. Note on Scope
 
-This process redesign is a **recommendation**, not a system this project implements (no workflow/approval tooling is being built — see BRD Section 7.2, Out of Scope). Its purpose is to demonstrate that the analytics deliverable is tied to a concrete operational change, not just descriptive reporting, a distinction reviewers use to separate analysts who understand "so what happens next" from those who only build dashboards.
+This process redesign is a **recommendation**, not a system this project implements (no workflow/approval tooling is being built, see BRD Section 7.2, Out of Scope). Its purpose is to demonstrate that the analytics deliverable is tied to a concrete operational change, not just descriptive reporting, a distinction reviewers use to separate analysts who understand "so what happens next" from those who only build dashboards.
