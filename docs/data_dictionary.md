@@ -1,5 +1,5 @@
 # Data Dictionary
-## Project: NorthPeak Retail — Profitability Decline Analysis
+## Project: NorthPeak Retail - Profitability Decline Analysis
 
 This dictionary documents every column in the `northpeak` schema (PostgreSQL), as implemented
 in `sql/00_schema_ddl.sql` and populated by `scripts/generate_data.py`. It is the reference
