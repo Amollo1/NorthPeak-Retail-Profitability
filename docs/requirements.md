@@ -1,5 +1,5 @@
 # Functional & Non-Functional Requirements
-## Project: NorthPeak Retail — Profitability Decline Analysis
+## Project: NorthPeak Retail - Profitability Decline Analysis
 
 ---
 
@@ -74,4 +74,4 @@ Kept lightweight and proportional to a solo portfolio project, but realistic eno
 
 ## 4. Traceability Note
 
-Every FR above maps to a BRD objective, and every dashboard page (FR-13 to FR-17) maps to a specific analytical requirement rather than existing decoratively. This traceability will be referenced again in the **Executive Summary** to demonstrate that the delivered solution fully satisfies the original business requirements — a detail hiring managers and technical reviewers specifically look for, since most portfolio dashboards are built without ever re-checking them against stated objectives.
+Every FR above maps to a BRD objective, and every dashboard page (FR-13 to FR-17) maps to a specific analytical requirement rather than existing decoratively. This traceability will be referenced again in the **Executive Summary** to demonstrate that the delivered solution fully satisfies the original business requirements, a detail hiring managers and technical reviewers specifically look for, since most portfolio dashboards are built without ever re-checking them against stated objectives.
