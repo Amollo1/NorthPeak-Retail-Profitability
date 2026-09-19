@@ -110,10 +110,10 @@ erDiagram
 
 ## 5. Known Limitations / Future Enhancements
 
-- No SCD Type 2 tracking — if a customer's segment or a product's category changes over time, this model does not preserve history. Acceptable for a static synthetic dataset; would need to be addressed for a real production model.
-- No separate `dim_ship_mode` — ship mode is kept as a fact-level attribute since it's low-cardinality and not a current analysis focus. Could be extracted to its own dimension if operational/logistics analysis becomes in-scope later.
-- Single `dim_region` conflates region/county/city into one dimension rather than a geography hierarchy table — sufficient for this project's scope, but a larger implementation might separate geography into its own hierarchical dimension.
-- Geography reflects Kenya's administrative structure: `region` uses the 8 former provinces (Nairobi, Central, Coast, Eastern, North Eastern, Nyanza, Rift Valley, Western) as a natural grouping level above the 47 counties; `county` holds the actual county name (e.g., "Uasin Gishu", "Mombasa"). This was corrected from an initial US-style "state" column to keep the geography factually accurate rather than a superficial find-replace of "Region"/"State" onto a different country.
+- No SCD Type 2 tracking, if a customer's segment or a product's category changes over time, this model does not preserve history. Acceptable for a static synthetic dataset; would need to be addressed for a real production model.
+- No separate `dim_ship_mode`, ship mode is kept as a fact-level attribute since it's low-cardinality and not a current analysis focus. Could be extracted to its own dimension if operational/logistics analysis becomes in-scope later.
+- Single `dim_region` conflates region/county/city into one dimension rather than a geography hierarchy table, sufficient for this project's scope, but a larger implementation might separate geography into its own hierarchical dimension.
+- Geography reflects Kenya's administrative structure: `region` uses the 8 former provinces (Nairobi, Central, Coast, Eastern, North Eastern, Nyanza, Rift Valley, Western) as a natural grouping level above the 47 counties; `county` holds the actual county name (e.g., "Uasin Gishu", "Mombasa").
 
 ---
 
