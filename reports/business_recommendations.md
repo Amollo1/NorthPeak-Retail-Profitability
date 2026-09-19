@@ -18,7 +18,7 @@ Each recommendation below traces directly to a specific, statistically validated
 ## Recommendation 1: Cap Corporate Segment Discounting
 
 ### Finding
-Corporate segment margin collapsed from 12.6% (2023) to 4.6% (2025), even as Corporate's share of total sales grew from 27.5% to 33.0%. The current sales-weighted average discount for Corporate customers in 2025 is **23.2%** — more than double the 2023 level, and far above the 8-12% range typical of other segments.
+Corporate segment margin collapsed from 12.6% (2023) to 4.6% (2025), even as Corporate's share of total sales grew from 27.5% to 33.0%. The current sales-weighted average discount for Corporate customers in 2025 is **23.2%**, more than double the 2023 level, and far above the 8-12% range typical of other segments.
 
 ### Recommendation
 Introduce a formal discount approval threshold for Corporate accounts: deals above **20% discount** require Regional Manager or Finance sign-off, rather than being approved unilaterally by the sales representative. This does not eliminate Corporate discounting — it restores governance over deals that currently erode margin without review.
