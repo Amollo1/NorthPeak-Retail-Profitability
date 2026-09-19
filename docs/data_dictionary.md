@@ -9,7 +9,7 @@ for every SQL query, Python calculation, and Power BI measure built on this data
 
 ## dim_date
 
-Role-playing dimension — joined twice from `fact_sales` (`order_date_key`, `ship_date_key`).
+Role-playing dimension, joined twice from `fact_sales` (`order_date_key`, `ship_date_key`).
 
 | Column | Type | Description | Example |
 |---|---|---|---|
