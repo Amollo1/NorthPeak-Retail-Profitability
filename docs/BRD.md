@@ -24,7 +24,7 @@ NorthPeak Retail Group has experienced strong top-line sales growth over the pas
 **Channels:** Physical stores (multi-region) + Online
 **Customer Segments:** Consumer, Corporate, Home Office
 
-NorthPeak operates across multiple regions and sells through both retail and e-commerce channels. Reporting today is fragmented — regional sales reports and finance P&L statements exist independently, with no unified, product- and region-level profitability view.
+NorthPeak operates across multiple regions and sells through both retail and e-commerce channels. Reporting today is fragmented, regional sales reports and finance P&L statements exist independently, with no unified, product- and region-level profitability view.
 
 ---
 
