@@ -6,7 +6,7 @@
 
 ## Business Problem
 
-NorthPeak Retail Group (fictional, Kenya-based retailer) grew sales 22% over three years, but profit margin fell from ~19% (2023) to ~12.5% (2025). Leadership had no unified view connecting sales, discounting, product, region, and customer segment data to explain *why* revenue growth wasn't translating into profit growth.
+NorthPeak Retail Group (Kenya-based retailer) grew sales 22% over three years, but profit margin fell from ~19% (2023) to ~12.5% (2025). Leadership had no unified view connecting sales, discounting, product, region, and customer segment data to explain *why* revenue growth wasn't translating into profit growth.
 
 This project answers that question end-to-end: business requirements → data modeling → SQL analysis → statistical validation in Python → an interactive Power BI dashboard → quantified, prioritized recommendations.
 
