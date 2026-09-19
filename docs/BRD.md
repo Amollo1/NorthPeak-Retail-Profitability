@@ -2,6 +2,7 @@
 ## Project: NorthPeak Retail - Profitability Decline Analysis
 
 **Document Version:** 1.0
+
 **Status:** Approved for Data Modeling & Generation
 **Prepared by:** Benard Onyango Omoga, Business/Data Analyst
 **Date:** September 2026
