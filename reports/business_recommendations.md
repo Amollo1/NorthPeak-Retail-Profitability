@@ -1,5 +1,5 @@
 # Business Recommendations
-## NorthPeak Retail — Profitability Decline Analysis
+## NorthPeak Retail - Profitability Decline Analysis
 
 **Prepared for:** Executive Leadership, Finance, Sales, Regional Management, Product Management
 **Prepared by:** Benard Onyango Omoga, Business/Data Analyst
