@@ -85,7 +85,7 @@ This document is the single source of truth for every metric used across SQL, Py
 
 ## 9. KPI Governance Notes
 
-- **Single formula rule:** Every KPI above must be implemented identically in SQL (`sql/03_business_analysis.sql`), Python (`notebooks/retail_analysis.ipynb`), and Power BI (DAX measures). Any discrepancy found during development must be resolved by correcting the deviation — not by treating small differences as acceptable.
+- **Single formula rule:** Every KPI above must be implemented identically in SQL (`sql/03_business_analysis.sql`), Python (`notebooks/retail_analysis.ipynb`), and Power BI (DAX measures). Any discrepancy found during development must be resolved by correcting the deviation, not by treating small differences as acceptable.
 - **Weighted averages:** `Average Discount %` and similar metrics must be **sales-weighted**, not a simple row-level average a common analyst error that silently misrepresents impact when order sizes vary.
 - **Thresholds are diagnostic, not decorative:** Every warning/critical threshold above is used later for conditional formatting in Power BI (red/amber/green), so the visual severity on the dashboard is derived from this table, not chosen arbitrarily during dashboard design.
 - **Traceability:** Every KPI here maps to a Functional Requirement (Section 2 of `requirements.md`) and a BRD Objective, this framework is the bridge between "what we said we'd measure" and "what the dashboard actually shows."
