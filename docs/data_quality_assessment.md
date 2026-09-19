@@ -54,7 +54,7 @@ WHERE ROUND(quantity * unit_price * (1 - discount_pct), 2) != sales_amount
 -- Expected result: 0
 ```
 
-**Note on the 32-row discrepancy:** verified against the live database — every affected row
+**Note on the 32-row discrepancy:** verified against the live database, every affected row
 shows a discrepancy of exactly **-0.01** (one cent), confirmed by direct inspection of sample
 rows. This is caused by Python's `round()` using round-half-to-even ("banker's rounding")
 while PostgreSQL's `ROUND()` uses round-half-away-from-zero; the two disagree only on values
