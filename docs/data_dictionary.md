@@ -16,9 +16,9 @@ Role-playing dimension — joined twice from `fact_sales` (`order_date_key`, `sh
 | `date_key` | INT (PK) | Surrogate key, format YYYYMMDD | `20250716` |
 | `full_date` | DATE | Calendar date | `2025-07-16` |
 | `day` | SMALLINT | Day of month | `16` |
-| `month` | SMALLINT | Month number (1–12) | `7` |
+| `month` | SMALLINT | Month number (1-12) | `7` |
 | `month_name` | VARCHAR(10) | Full month name | `July` |
-| `quarter` | SMALLINT | Calendar quarter (1–4) | `3` |
+| `quarter` | SMALLINT | Calendar quarter (1-4) | `3` |
 | `year` | SMALLINT | Calendar year | `2025` |
 | `day_of_week` | VARCHAR(10) | Day name | `Wednesday` |
 | `is_weekend` | BOOLEAN | True if Saturday/Sunday | `false` |
