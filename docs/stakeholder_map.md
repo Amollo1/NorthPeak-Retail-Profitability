@@ -1,5 +1,5 @@
 # Stakeholder Map
-## Project: NorthPeak Retail — Profitability Decline Analysis
+## Project: NorthPeak Retail - Profitability Decline Analysis
 
 ---
 
