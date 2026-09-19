@@ -20,7 +20,7 @@ In plain terms: **the business is selling more but keeping less of every shillin
 A detailed analysis of three years of sales, cost, and discount data — covering all products, regions, and customer types, identified three specific, addressable causes.
 
 **1. A pricing problem in one segment, not the whole business**
-Corporate customers now account for a third of all sales (up from 27%), but their share of *profit* has fallen to just 10%. Corporate deals are being discounted far more heavily than other customer types, and that gap has widened every year. In 2025, Corporate sales overall earned just 4.6% margin — compared to roughly 20% from Consumer and Home Office customers.
+Corporate customers now account for a third of all sales (up from 27%), but their share of *profit* has fallen to just 10%. Corporate deals are being discounted far more heavily than other customer types, and that gap has widened every year. In 2025, Corporate sales overall earned just 4.6% margin, compared to roughly 20% from Consumer and Home Office customers.
 
 **2. Rising discounts in one region and category**
 Furniture sales in the Nairobi region show a discount rate that has climbed from about 9% to over 28% over the past 18 months, far faster than the same category anywhere else in the business. This single pattern is a major contributor to Nairobi being the lowest-margin region in the company today.
