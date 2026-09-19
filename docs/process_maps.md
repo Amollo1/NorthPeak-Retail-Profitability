@@ -1,11 +1,11 @@
 # Process Maps: Discounting & Pricing Decision Process
-## Project: NorthPeak Retail — Profitability Decline Analysis
+## Project: NorthPeak Retail - Profitability Decline Analysis
 
 ---
 
 ## 1. Why This Process
 
-The core business problem centers on margin erosion, and discounting practice (BRD Objective 3) is one of the leading suspected drivers. This document maps how discount and pricing decisions are currently made (As-Is) versus how they should be made once this analytics solution is in place (To-Be). It illustrates not just *what data was analyzed*, but *what business process the analysis is meant to change* — the actual purpose of a BI solution.
+The core business problem centers on margin erosion, and discounting practice (BRD Objective 3) is one of the leading suspected drivers. This document maps how discount and pricing decisions are currently made (As-Is) versus how they should be made once this analytics solution is in place (To-Be). It illustrates not just *what data was analyzed*, but *what business process the analysis is meant to change*, the actual purpose of a BI solution.
 
 ---
 
@@ -13,7 +13,7 @@ The core business problem centers on margin erosion, and discounting practice (B
 
 ### 2.1 Narrative
 
-Today, discount decisions at NorthPeak are made independently by Regional Managers and Sales Representatives, largely reactively — in response to competitor pricing, customer negotiation pressure, or end-of-quarter sales targets. There is no centralized visibility into how discount levels affect profit margin by product or category. Finance only sees the profitability impact **after the fact**, during monthly P&L close, by which point the quarter's discounting pattern is already locked in. There is no feedback loop informing future discount decisions.
+Today, discount decisions at NorthPeak are made independently by Regional Managers and Sales Representatives, largely reactively, in response to competitor pricing, customer negotiation pressure, or end-of-quarter sales targets. There is no centralized visibility into how discount levels affect profit margin by product or category. Finance only sees the profitability impact **after the fact**, during monthly P&L close, by which point the quarter's discounting pattern is already locked in. There is no feedback loop informing future discount decisions.
 
 ### 2.2 Diagram
 
@@ -50,7 +50,7 @@ flowchart TD
 
 ### 3.1 Narrative
 
-With the profitability dashboard in place, discount and pricing decisions are informed by near-real-time, product- and region-level margin visibility. Regional Managers and Sales Reps can check margin impact *before* finalizing a discount, using documented discount-threshold guidance derived from the analysis (FR-09). Finance shifts from a reactive, month-end detection role to a proactive monitoring and governance role, using the same dashboard.
+With the profitability dashboard in place, discount and pricing decisions are informed by near-real-time, product, and region-level margin visibility. Regional Managers and Sales Reps can check margin impact *before* finalizing a discount, using documented discount-threshold guidance derived from the analysis (FR-09). Finance shifts from a reactive, month-end detection role to a proactive monitoring and governance role, using the same dashboard.
 
 ### 3.2 Diagram
 
@@ -102,4 +102,4 @@ flowchart TD
 
 ## 5. Note on Scope
 
-This process redesign is a **recommendation**, not a system this project implements (no workflow/approval tooling is being built — see BRD Section 7.2, Out of Scope). Its purpose is to demonstrate that the analytics deliverable is tied to a concrete operational change, not just descriptive reporting — a distinction reviewers use to separate analysts who understand "so what happens next" from those who only build dashboards.
+This process redesign is a **recommendation**, not a system this project implements (no workflow/approval tooling is being built — see BRD Section 7.2, Out of Scope). Its purpose is to demonstrate that the analytics deliverable is tied to a concrete operational change, not just descriptive reporting, a distinction reviewers use to separate analysts who understand "so what happens next" from those who only build dashboards.
