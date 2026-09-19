@@ -2,7 +2,7 @@
 ## NorthPeak Retail — Profitability Decline Analysis
 
 **Prepared for:** Executive Leadership, Finance, Sales, and Regional Management
-**Prepared by:** [Your Name], Business/Data Analyst
+**Prepared by:** Benard Onyango Omoga, Business/Data Analyst
 **Date:** September 2026
 
 ---
