@@ -3,7 +3,7 @@
 
 **Document Version:** 1.0
 **Status:** Approved for Phase 2 (Data Modeling & Generation)
-**Prepared by:** [Your Name], Business/Data Analyst
+**Prepared by:** Benard Onyango Omoga, Business/Data Analyst
 **Date:** September 2026
 
 ---
@@ -16,7 +16,7 @@ NorthPeak Retail Group has experienced strong top-line sales growth over the pas
 
 ## 2. Company Background
 
-**Company:** NorthPeak Retail Group (fictional)
+**Company:** NorthPeak Retail Group
 **Industry:** Multi-category retail (Technology, Furniture, Office Supplies)
 **Channels:** Physical stores (multi-region) + Online
 **Customer Segments:** Consumer, Corporate, Home Office
@@ -179,4 +179,4 @@ The project is successful if a stakeholder reviewing the dashboard and reports c
 
 | Role | Name | Status |
 |---|---|---|
-| Project Owner / Analyst | [Your Name] | Approved |
+| Project Owner / Analyst | Benard Onyango Omoga | Approved |
