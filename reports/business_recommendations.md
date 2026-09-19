@@ -30,7 +30,7 @@ Introduce a formal discount approval threshold for Corporate accounts: deals abo
 | Hypothetical profit if discount capped at 20% | KES 28,104,872 |
 | **Estimated annual profit recovery** | **≈ KES 15,041,012** |
 
-### Priority: **High** — largest single-line impact of the three product/pricing recommendations.
+### Priority: **High**; largest single-line impact of the three product/pricing recommendations.
 ### Owner: Sales Director (policy), Finance Manager (approval workflow)
 
 ---
