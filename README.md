@@ -79,7 +79,7 @@ The dataset is **synthetically generated**.
 
 ## Data Model
 
-A proper star schema, not a single flat table — `fact_sales` (69,735 rows, one row per order line item) joined to four dimensions (`dim_date`, `dim_customer`, `dim_product`, `dim_region`), including a role-playing date dimension (order date / ship date) and Kenya-accurate geography (8 former provinces → 47 counties).
+A proper star schema, not a single flat table, `fact_sales` (69,735 rows, one row per order line item) joined to four dimensions (`dim_date`, `dim_customer`, `dim_product`, `dim_region`), including a role-playing date dimension (order date / ship date) and Kenya-accurate geography (8 former provinces → 47 counties).
 
 **Full design rationale:** [`docs/data_model.md`](docs/data_model.md) · **Schema DDL:** [`sql/00_schema_ddl.sql`](sql/00_schema_ddl.sql)
 
@@ -89,27 +89,27 @@ A proper star schema, not a single flat table — `fact_sales` (69,735 rows, one
 
 <p align="center">
   <img src="images/dashboard_screenshots/01_executive_overview.png" width="800"><br>
-  <em>Executive Overview — company-wide KPIs and the core margin decline trend</em>
+  <em>Executive Overview: company-wide KPIs and the core margin decline trend</em>
 </p>
 
 <p align="center">
   <img src="images/dashboard_screenshots/02_product_performance.png" width="800"><br>
-  <em>Product Performance — sub-category profitability, loss-making products, revenue-profit divergence</em>
+  <em>Product Performance - sub-category profitability, loss-making products, revenue-profit divergence</em>
 </p>
 
 <p align="center">
   <img src="images/dashboard_screenshots/03_discount_analysis.png" width="800"><br>
-  <em>Discount Analysis — discount-band profitability and the Nairobi/Furniture discount-creep trend</em>
+  <em>Discount Analysis - discount-band profitability and the Nairobi/Furniture discount-creep trend</em>
 </p>
 
 <p align="center">
   <img src="images/dashboard_screenshots/04_regional_performance.png" width="800"><br>
-  <em>Regional Performance — regional margin comparison, Nairobi highlighted</em>
+  <em>Regional Performance - regional margin comparison, Nairobi highlighted</em>
 </p>
 
 <p align="center">
   <img src="images/dashboard_screenshots/05_customer_segment.png" width="800"><br>
-  <em>Customer Segment — segment profitability and the Corporate dilution effect</em>
+  <em>Customer Segment - segment profitability and the Corporate dilution effect</em>
 </p>
 
 ---
