@@ -26,7 +26,7 @@ Role-playing dimension — joined twice from `fact_sales` (`order_date_key`, `sh
 
 **Coverage:** 2023-01-01 through 2026-01-10 (1,106 rows). The range extends ~10 days past the
 analysis window's end (2025-12-31) solely so that `ship_date_key` values on late December orders
-have a valid row to reference — orders themselves are only ever placed within 2023-01-01 to
+have a valid row to reference, orders themselves are only ever placed within 2023-01-01 to
 2025-12-31.
 
 ---
