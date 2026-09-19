@@ -53,7 +53,7 @@ This document is the single source of truth for every metric used across SQL, Py
 
 ---
 
-**Note on regional variance in practice:** a region's blended variance can understate a severe, category-specific problem. For example, Nairobi's overall 2025 regional margin variance is approximately -2.1pp, within the ±3pp "on target" band above — even though Nairobi's Furniture sub-category specifically shows a severe, discount-driven margin collapse (see Discount Analysis). The blended regional metric is not the right lens for that finding; the discount-band and category-specific analysis is. This is intentionally left undisturbed rather than retroactively tightening the threshold to make the blended metric "catch" a finding it was never designed to catch at the aggregate level.
+**Note on regional variance in practice:** a region's blended variance can understate a severe, category-specific problem. For example, Nairobi's overall 2025 regional margin variance is approximately -2.1pp, within the ±3pp "on target" band above, even though Nairobi's Furniture sub-category specifically shows a severe, discount-driven margin collapse (see Discount Analysis). The blended regional metric is not the right lens for that finding; the discount-band and category-specific analysis is. This is intentionally left undisturbed rather than retroactively tightening the threshold to make the blended metric "catch" a finding it was never designed to catch at the aggregate level.
 
 ## 6. Discount KPIs
 
