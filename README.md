@@ -191,4 +191,4 @@ Out of scope for this project (see [`docs/BRD.md`](docs/BRD.md) Section 7.2), bu
 
 **Benard Onyango Omoga**: IT Specialist, Data Analyst, Web Developer
 
-[LinkedIn] · [https://amollo1.github.io/] · [Email]
+[LinkedInhttps://www.linkedin.com/in/benard-omoga-870b77145/] · [https://amollo1.github.io/] · [Email]
