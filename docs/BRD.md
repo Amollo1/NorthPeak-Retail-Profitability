@@ -128,7 +128,7 @@ The delivered solution must allow stakeholders to answer:
 
 ## 9. Constraints & Assumptions
 
-- Data is synthetic, generated in Python with deliberately embedded profitability issues (documented separately in a "ground truth" reference for internal validation — not part of the public-facing analysis).
+- Data is synthetic, generated in Python
 - Analysis covers a 3-year historical window at monthly granularity.
 - PostgreSQL is the system of record; Power BI connects via live/import connection, not flat-file import.
 - No real customer, financial, or proprietary data is used at any stage.
