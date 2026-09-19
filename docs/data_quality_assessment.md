@@ -59,13 +59,13 @@ shows a discrepancy of exactly **-0.01** (one cent), confirmed by direct inspect
 rows. This is caused by Python's `round()` using round-half-to-even ("banker's rounding")
 while PostgreSQL's `ROUND()` uses round-half-away-from-zero; the two disagree only on values
 landing exactly on a rounding boundary (e.g., a third decimal digit of exactly 5). Maximum
-possible aggregate impact is 32 cents against a total profit base of roughly KES 421 million —
-immaterial at any level of aggregation used in this analysis. This is documented rather than
+possible aggregate impact is 32 cents against a total profit base of roughly KES 421 million,
+immaterial at any level of aggregation used in this analysis. This is documented rather than,
 "corrected," since forcing the two systems to agree on a rounding convention would add
 complexity without changing any business conclusion.
 
 **Note on negative profit:** `profit_amount` is negative for many "Tables" sub-category
-transactions — this is an intentional, expected finding (a structurally unprofitable
+transactions, this is an intentional, expected finding (a structurally unprofitable
 sub-category, see BRD Objective 2), not a data quality defect. Do not "correct" or filter these
 out during analysis.
 
