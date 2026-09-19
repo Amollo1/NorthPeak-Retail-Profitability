@@ -109,8 +109,7 @@ produces 3 rows sharing the same `order_id`.
 
 **Important formula note:** `sales_amount`, `cost_amount`, and `profit_amount` are pre-calculated
 and stored at generation time (not computed on the fly), so SQL, Python, and Power BI all read
-the identical stored figures rather than risking three different rounding/calculation paths —
-per the KPI Framework's "single formula rule" (Section 9).
+the identical stored figures rather than risking three different rounding/calculation paths, per the KPI Framework's "single formula rule" (Section 9).
 
 ---
 
