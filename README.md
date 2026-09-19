@@ -73,7 +73,7 @@ flowchart LR
     C --> D[Communication Layer<br/>Power BI Dashboard,<br/>Exec Summary,<br/>Recommendations]
 ```
 
-The dataset is **synthetically generated with deliberately engineered profitability issues** (not random noise), see [`internal/ground_truth.md`](internal/ground_truth.md) *(not published, internal validation reference only)* for the exact mechanisms planted, which the analysis independently rediscovers.
+The dataset is **synthetically generated**, see [`internal/ground_truth.md`](internal/ground_truth.md) *(not published, internal validation reference only)* for the exact mechanisms planted, which the analysis independently rediscovers.
 
 ---
 
