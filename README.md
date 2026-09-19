@@ -191,4 +191,4 @@ Out of scope for this project (see [`docs/BRD.md`](docs/BRD.md) Section 7.2), bu
 
 **Benard Onyango Omoga**: IT Specialist, Data Analyst, Web Developer
 
-[LinkedIn] · [git commit -m "Add Layer C (SQL/Python analysis) and Layer D (Power BI dashboard, reports, README)"] · [Email]
+[LinkedIn] · [https://amollo1.github.io/] · [Email]
