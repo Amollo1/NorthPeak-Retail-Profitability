@@ -156,5 +156,5 @@ quantities from returns, and duplicate customer records from imperfect deduplica
 project's data quality section demonstrates the *methodology* (the five-dimension framework,
 the validation queries, the constraint-based enforcement) rather than a war story of messy
 data cleanup. State this plainly rather than implying the data required extensive cleaning it
-did not need — overstating data-cleaning effort is a credibility risk if asked about it directly
+did not need, overstating data-cleaning effort is a credibility risk if asked about it directly
 in an interview.
