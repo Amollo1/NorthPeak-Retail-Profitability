@@ -42,7 +42,7 @@ have a valid row to reference — orders themselves are only ever placed within 
 | `join_date` | DATE | Date customer first recorded | `2022-08-14` |
 
 **Row count:** 1,200. Segment split at generation: 55% Consumer, 30% Corporate, 15% Home Office
-(this is the *customer roster* split — note the *order volume* mix shifts over time toward
+(this is the *customer roster* split, note the *order volume* mix shifts over time toward
 Corporate; see `fact_sales` notes below).
 
 ---
@@ -60,7 +60,7 @@ Corporate; see `fact_sales` notes below).
 | `base_unit_price` | NUMERIC(12,2) | Reference price (KES) | `24500.00` |
 
 **Row count:** 21 products across 11 sub-categories. `base_unit_cost`/`base_unit_price` are
-reference values only — actual transaction-level `unit_cost`/`unit_price` in `fact_sales` vary
+reference values only, actual transaction-level `unit_cost`/`unit_price` in `fact_sales` vary
 slightly (±2–3%) to simulate realistic price/cost fluctuation over time.
 
 ---
