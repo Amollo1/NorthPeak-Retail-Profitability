@@ -1,5 +1,5 @@
 # Business Requirements Document (BRD)
-## Project: NorthPeak Retail — Profitability Decline Analysis
+## Project: NorthPeak Retail - Profitability Decline Analysis
 
 **Document Version:** 1.0
 **Status:** Approved for Phase 2 (Data Modeling & Generation)
