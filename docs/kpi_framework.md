@@ -1,13 +1,13 @@
 # KPI Framework
-## Project: NorthPeak Retail — Profitability Decline Analysis
+## Project: NorthPeak Retail - Profitability Decline Analysis
 
 ---
 
 ## 1. Purpose
 
-This document is the single source of truth for every metric used across SQL, Python, and Power BI. Each KPI is defined once here — name, formula, grain, target/threshold, owner, and dashboard placement — so that the same number is never calculated two different ways in two different tools. Every SQL query, DAX measure, and Python calculation must match the formula defined here exactly.
+This document is the single source of truth for every metric used across SQL, Python, and Power BI. Each KPI is defined once here; name, formula, grain, target/threshold, owner, and dashboard placement, so that the same number is never calculated two different ways in two different tools. Every SQL query, DAX measure, and Python calculation must match the formula defined here exactly.
 
-**Baseline reference (from BRD Section 3.1):** Profit margin declined from **18%** (historical baseline) to **11%** (current), while sales grew **22%** over six quarters. All targets/thresholds below are anchored to these BRD figures — not arbitrary.
+**Baseline reference (from BRD Section 3.1):** Profit margin declined from **18%** (historical baseline) to **11%** (current), while sales grew **22%** over six quarters. All targets/thresholds below are anchored to these BRD figures, not arbitrary.
 
 ---
 
@@ -53,7 +53,7 @@ This document is the single source of truth for every metric used across SQL, Py
 
 ---
 
-**Note on regional variance in practice:** a region's blended variance can understate a severe, category-specific problem. For example, Nairobi's overall 2025 regional margin variance is approximately -2.1pp — within the ±3pp "on target" band above — even though Nairobi's Furniture sub-category specifically shows a severe, discount-driven margin collapse (see Discount Analysis). The blended regional metric is not the right lens for that finding; the discount-band and category-specific analysis is. This is intentionally left undisturbed rather than retroactively tightening the threshold to make the blended metric "catch" a finding it was never designed to catch at the aggregate level.
+**Note on regional variance in practice:** a region's blended variance can understate a severe, category-specific problem. For example, Nairobi's overall 2025 regional margin variance is approximately -2.1pp, within the ±3pp "on target" band above — even though Nairobi's Furniture sub-category specifically shows a severe, discount-driven margin collapse (see Discount Analysis). The blended regional metric is not the right lens for that finding; the discount-band and category-specific analysis is. This is intentionally left undisturbed rather than retroactively tightening the threshold to make the blended metric "catch" a finding it was never designed to catch at the aggregate level.
 
 ## 6. Discount KPIs
 
@@ -86,9 +86,9 @@ This document is the single source of truth for every metric used across SQL, Py
 ## 9. KPI Governance Notes
 
 - **Single formula rule:** Every KPI above must be implemented identically in SQL (`sql/03_business_analysis.sql`), Python (`notebooks/retail_analysis.ipynb`), and Power BI (DAX measures). Any discrepancy found during development must be resolved by correcting the deviation — not by treating small differences as acceptable.
-- **Weighted averages:** `Average Discount %` and similar metrics must be **sales-weighted**, not a simple row-level average — a common analyst error that silently misrepresents impact when order sizes vary.
+- **Weighted averages:** `Average Discount %` and similar metrics must be **sales-weighted**, not a simple row-level average a common analyst error that silently misrepresents impact when order sizes vary.
 - **Thresholds are diagnostic, not decorative:** Every warning/critical threshold above is used later for conditional formatting in Power BI (red/amber/green), so the visual severity on the dashboard is derived from this table, not chosen arbitrarily during dashboard design.
-- **Traceability:** Every KPI here maps to a Functional Requirement (Section 2 of `requirements.md`) and a BRD Objective — this framework is the bridge between "what we said we'd measure" and "what the dashboard actually shows."
+- **Traceability:** Every KPI here maps to a Functional Requirement (Section 2 of `requirements.md`) and a BRD Objective, this framework is the bridge between "what we said we'd measure" and "what the dashboard actually shows."
 
 ---
 
